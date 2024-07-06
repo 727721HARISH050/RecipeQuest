@@ -1,0 +1,116 @@
+ #header *
+{
+    background-color: #FFF5E1;
+   color: #102C57;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+#header .toggle{
+    color: #FFF5E1;
+}
+#header .submit:hover
+{
+    background-color: green;
+    color: white;
+}
+#main-content
+{
+    margin-top: 0px;
+    background-color: #102C57;
+    min-height: 86vh;
+    max-height: auto;
+    color: #FFF5E1;
+    
+    
+}
+ #waiting
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px
+} 
+.fullscreen
+{
+    padding: 25px;
+    
+}
+
+.cards
+{
+    color: #102C57;
+}
+
+.dontshow
+{
+    display: none;
+}
+.show
+{
+    display: inline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    background-color: #102C57;
+    color: #FFF5E1;
+    z-index: 2;
+    opacity: 0.9;   
+    border: 1px solid whitesmoke;
+    width: 450px; /* Set the width of the box */
+    height: 500px; /* Set the height of the box */
+    border: 2px solid black; /* Add a border */
+    padding: 10px; /* Add some padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto;
+
+}
+#cancelbutton {
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0px;
+    right: 10px;
+    background: rgb(200, 66, 66);
+    color: black;
+    border: none;
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup h2{
+    
+    
+    color: wheat;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large
+   
+}
+#popup h4{
+    font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+#popup p{
+    font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: larger;
+  word-spacing: 5px;
+  
+}
